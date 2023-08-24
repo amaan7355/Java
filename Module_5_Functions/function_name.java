@@ -1,4 +1,4 @@
-package Module_5_Functions;
+// package Module_5_Functions;
 import java.util.*;
 public class function_name {
    public static void PrintMyName(String name){

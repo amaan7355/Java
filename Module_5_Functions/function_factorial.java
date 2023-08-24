@@ -1,13 +1,13 @@
-package Module_5_Functions;
+// package Module_5_Functions;
 import java.util.*;
 public class function_factorial {
     public static void fact (int n) {
         if (n<0){
-            System.out.println("Invalid No.");
+            System.out.println("Invalid Number");
             return;
         }
         int f=1;
-        for (int i=1; i<=n; i++){
+        for (int i=n; i>=1; i--){
             f = f*i;
         }
         System.out.println("The factorial of a no. is: " + f);
