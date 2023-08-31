@@ -1,13 +1,14 @@
 // Find the maximum & minimum number in an array of integers.
 
 import java.util.*;
-public class arrayMaxMin {
+public class array1DMaxMin {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array: ");
         int size = sc.nextInt();
         int arr[] = new int[size];
         for(int i=0; i<size; i++){
+            System.out.print("Enter the "+ i +"th array value: ");
             arr[i] = sc.nextInt();
         }
         // Initialize max and min.

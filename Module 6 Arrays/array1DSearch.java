@@ -1,7 +1,7 @@
 // Take an array as input from the user. Search for a given number x and print the index at which it occurs.
 
 import java.util.*;
-public class arraySearch {
+public class array1DSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array: ");
